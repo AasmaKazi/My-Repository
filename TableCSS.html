@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS use for Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+  
+
+table,th,td{
+       
+        border: solid brown;
+        max-width: 500px;
+        border-collapse: collapse;
+       
+    }
+
+   
+th{
+    text-align: center
+}
+
+tr:hover{
+    background-color: chartreuse;
+}
+
+tr:nth-child(even){
+
+color: darkmagenta;
+background-color: darkkhaki
+}
+.tableOne{
+
+    background-color:salmon; 
+}
+table.tableOne{
+    border-collapse: unset;
+    border:2px solid purple;
+}
+    </style>
+</head>
+
+<body>
+        <table class="tableOne">
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Name</th>
+                    <th>Contact no.</th>
+                    <th>Education</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td>Aasma</td>
+                    <td>12345</td>
+                    <td>B.E. computer</td>
+                </tr>
+        
+                <tr>
+                    <td>2</td>
+                    <td>Mrunali</td>
+                    <td>112245</td>
+                    <td>B.E. computer</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Juwairiya</td>
+                    <td>345212</td>
+                    <td>B.E. computer</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nikita</td>
+                    <td>4512322</td>
+                    <td>B.E. computer</td>
+                </tr>
+            </table>
+        
+
+<br />
+<br />
+<br />
+        <table class="tableTwo">
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Name</th>
+                    <th>Contact no.</th>
+                    <th>Education</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td>Aasma</td>
+                    <td>12345</td>
+                    <td>B.E. computer</td>
+                </tr>
+        
+                <tr>
+                    <td>2</td>
+                    <td>Mrunali</td>
+                    <td>112245</td>
+                    <td>B.E. computer</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Juwairiya</td>
+                    <td>345212</td>
+                    <td>B.E. computer</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nikita</td>
+                    <td>4512322</td>
+                    <td>B.E. computer</td>
+                </tr>
+            </table>
+
+
+<h1>Tooltip....</h1>
+<div class="tooltipp">dummy text
+    <span class="tooltipText">any Tooltip text </span>
+</div>
+</body>
+
+</html>

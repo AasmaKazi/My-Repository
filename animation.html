@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation</title>
+
+    <style>
+    div.ani{
+        height: 100px;
+        width: 100px;
+        border: 5px solid black;
+        background-color: palevioletred;
+        animation-name: my_animation;
+        animation-duration: 2s;
+        animation-iteration-count: 5;
+    }
+
+    @keyframes my_animation{
+        from{background-color: palevioletred;}
+        to{background-color: black;}     
+    }
+
+    .transition{
+        height: 150px;
+        width: 150px;
+        background-color: blue;
+        transition: background-color 2s;
+
+    }
+
+    .transition:hover{
+
+        background-color: brown;
+    }
+    </style>
+</head>
+<body>
+    <h2>Animation Example:</h2>
+    <p>change background color.</p>
+    <div class="ani">
+
+    </div>
+
+    <h2>Transition Example....</h2>
+    <p>Changing backgorund color on mouse hober....</p>
+    <div class="transition">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psudo element</title>
+<style>
+     p::first-line{
+        background-color: orchid;
+
+    } 
+
+    p::first-letter{
+
+        font-family: fantasy;
+        font-size: 10 px;
+        color: orangered;
+    }
+
+    h1::before{
+        content:"This is Psudo Element before h1"
+    }
+
+    h1::after{
+
+/* content: "This is Psudo Element after h1"; */
+        content: url(image.jpg);
+    }
+</style>
+
+</head>
+<body>
+    
+<h1>  * Psudo Elements.....</h1>
+<div>
+        <p>Psudo elements are used to give style more specific element in document.
+                Psudo elements are used to give style more specific element in document.
+                Psudo elements are used to give style more specific element in document.
+             Psudo elements are used to give style more specific element in document.
+             Psudo elements are used to give style more specific element in document.
+            </p>
+</div>
+
+
+</body>
+</html>
